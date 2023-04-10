@@ -6,5 +6,7 @@
         public string Name { get; set; } = string.Empty;
         public string RpgClass { get; set; } = "Knights";
         public User User { get; set; }
+
+        public int UserId { get; set; }
     }
 }
